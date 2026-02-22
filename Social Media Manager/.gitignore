@@ -1,0 +1,5 @@
+openclaw-manager/.env
+openclaw-manager/bot_data.db
+openclaw-manager/__pycache__/
+*.pyc
+.vscode/
