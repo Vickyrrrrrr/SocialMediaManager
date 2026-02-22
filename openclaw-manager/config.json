@@ -1,0 +1,28 @@
+{
+    "default_model": "meta/llama-3.1-70b-instruct",
+    "skills": [
+        "agentic_pr"
+    ],
+    "skill_settings": {
+        "agentic_pr": {
+            "path": "skills/agentic_pr",
+            "metrics_file": "data/public_metrics/latest.json"
+        }
+    },
+    "agentic_reports_path": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\vickynishad\\OpenLane\\designs",
+    "triggers": {
+        "telegram": {
+            "enabled": true,
+            "commands": [
+                "/check_latest",
+                "/confirm",
+                "/list_designs",
+                "/help"
+            ]
+        },
+        "whatsapp": {
+            "enabled": false,
+            "note": "Requires webhook integration see documentation"
+        }
+    }
+}
